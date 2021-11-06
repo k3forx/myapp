@@ -53,6 +53,12 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            // Image.network(
+            //     'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg'),
+            Icon(
+              Icons.print,
+              size: 40,
+            ),
             RaisedButton(
               child: Text(text),
               onPressed: () {
