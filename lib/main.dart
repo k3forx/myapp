@@ -53,6 +53,18 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Text(
+              'Test Text',
+              style: TextStyle(
+                fontSize: 30,
+                color: Colors.greenAccent,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            Text(
+              'Test Text 2',
+              style: TextStyle(),
+            ),
             // Image.network(
             //     'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg'),
             Icon(
